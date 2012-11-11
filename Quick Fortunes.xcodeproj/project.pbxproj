@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3240B82164F11A7003FFCD6 /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3240B81164F11A7003FFCD6 /* background-568h@2x.png */; };
+		F3240B85164F2828003FFCD6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3240B84164F2828003FFCD6 /* libz.dylib */; };
+		F369B09E164E393B00536BA0 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F369B09A164E393B00536BA0 /* libTestFlight.a */; };
+		F369B09F164E393B00536BA0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F369B09B164E393B00536BA0 /* README.md */; };
+		F369B0A0164E393B00536BA0 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = F369B09C164E393B00536BA0 /* release_notes.md */; };
+		F3E0B610164F0AAA0069A53C /* 57px temp.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E0B60F164F0AAA0069A53C /* 57px temp.png */; };
+		F3E0B613164F0BB20069A53C /* 116px temp.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E0B612164F0BB20069A53C /* 116px temp.png */; };
+		F3E0B616164F0CF50069A53C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E0B614164F0CF50069A53C /* background.png */; };
+		F3E0B617164F0CF50069A53C /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E0B615164F0CF50069A53C /* background@2x.png */; };
 		F3F852C0164E37FC00B03E65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F852BF164E37FC00B03E65 /* UIKit.framework */; };
 		F3F852C2164E37FC00B03E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F852C1164E37FC00B03E65 /* Foundation.framework */; };
 		F3F852C4164E37FC00B03E65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F852C3164E37FC00B03E65 /* CoreGraphics.framework */; };
@@ -21,6 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3240B81164F11A7003FFCD6 /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		F3240B84164F2828003FFCD6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F369B09A164E393B00536BA0 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		F369B09B164E393B00536BA0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F369B09C164E393B00536BA0 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		F369B09D164E393B00536BA0 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		F3E0B60F164F0AAA0069A53C /* 57px temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57px temp.png"; sourceTree = "<group>"; };
+		F3E0B612164F0BB20069A53C /* 116px temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "116px temp.png"; sourceTree = "<group>"; };
+		F3E0B614164F0CF50069A53C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F3E0B615164F0CF50069A53C /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		F3F852BB164E37FC00B03E65 /* Quick Fortunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Fortunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F852BF164E37FC00B03E65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3F852C1164E37FC00B03E65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,18 +63,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3240B85164F2828003FFCD6 /* libz.dylib in Frameworks */,
 				F3F852C0164E37FC00B03E65 /* UIKit.framework in Frameworks */,
 				F3F852C2164E37FC00B03E65 /* Foundation.framework in Frameworks */,
 				F3F852C4164E37FC00B03E65 /* CoreGraphics.framework in Frameworks */,
+				F369B09E164E393B00536BA0 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F369B099164E393B00536BA0 /* TestFlightSDK1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				F369B09A164E393B00536BA0 /* libTestFlight.a */,
+				F369B09B164E393B00536BA0 /* README.md */,
+				F369B09C164E393B00536BA0 /* release_notes.md */,
+				F369B09D164E393B00536BA0 /* TestFlight.h */,
+			);
+			path = TestFlightSDK1.1;
+			sourceTree = "<group>";
+		};
+		F369B0A2164E394000536BA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0B614164F0CF50069A53C /* background.png */,
+				F3240B81164F11A7003FFCD6 /* background-568h@2x.png */,
+				F3E0B615164F0CF50069A53C /* background@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		F3F852B0164E37FC00B03E65 = {
 			isa = PBXGroup;
 			children = (
+				F3240B84164F2828003FFCD6 /* libz.dylib */,
+				F3E0B612164F0BB20069A53C /* 116px temp.png */,
+				F3E0B60F164F0AAA0069A53C /* 57px temp.png */,
 				F3F852C5164E37FC00B03E65 /* Quick Fortunes */,
 				F3F852BE164E37FC00B03E65 /* Frameworks */,
 				F3F852BC164E37FC00B03E65 /* Products */,
@@ -96,6 +141,8 @@
 		F3F852C6164E37FC00B03E65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F369B0A2164E394000536BA0 /* Images */,
+				F369B099164E393B00536BA0 /* TestFlightSDK1.1 */,
 				F3F852C7164E37FC00B03E65 /* Quick Fortunes-Info.plist */,
 				F3F852C8164E37FC00B03E65 /* InfoPlist.strings */,
 				F3F852CB164E37FC00B03E65 /* main.m */,
@@ -163,6 +210,13 @@
 				F3F852D4164E37FC00B03E65 /* Default@2x.png in Resources */,
 				F3F852D6164E37FC00B03E65 /* Default-568h@2x.png in Resources */,
 				F3F852D9164E37FC00B03E65 /* MainStoryboard.storyboard in Resources */,
+				F369B09F164E393B00536BA0 /* README.md in Resources */,
+				F369B0A0164E393B00536BA0 /* release_notes.md in Resources */,
+				F3E0B610164F0AAA0069A53C /* 57px temp.png in Resources */,
+				F3E0B613164F0BB20069A53C /* 116px temp.png in Resources */,
+				F3E0B616164F0CF50069A53C /* background.png in Resources */,
+				F3E0B617164F0CF50069A53C /* background@2x.png in Resources */,
+				F3240B82164F11A7003FFCD6 /* background-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +280,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -247,6 +302,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -257,6 +313,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quick Fortunes/Quick Fortunes-Prefix.pch";
 				INFOPLIST_FILE = "Quick Fortunes/Quick Fortunes-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Quick Fortunes/TestFlightSDK1.1\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +328,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quick Fortunes/Quick Fortunes-Prefix.pch";
 				INFOPLIST_FILE = "Quick Fortunes/Quick Fortunes-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Quick Fortunes/TestFlightSDK1.1\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,6 +356,7 @@
 				F3F852E1164E37FC00B03E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
