@@ -12,8 +12,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background-568h@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rkl-0b-6Jz"/>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="It is decidedly so" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="236" translatesAutoresizingMaskIntoConstraints="NO" id="ML7-bA-t8j">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="236" translatesAutoresizingMaskIntoConstraints="NO" id="ML7-bA-t8j">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="176" id="bfG-yf-CQT"/>
                                     <constraint firstAttribute="width" constant="236" id="j9N-E9-t3n"/>
@@ -25,12 +24,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Rkl-0b-6Jz" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="C7a-3q-lH2"/>
-                            <constraint firstItem="ML7-bA-t8j" firstAttribute="centerX" secondItem="Rkl-0b-6Jz" secondAttribute="centerX" type="default" id="CYh-Bd-QNf"/>
-                            <constraint firstItem="Rkl-0b-6Jz" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="SeN-5w-rjU"/>
-                            <constraint firstItem="ML7-bA-t8j" firstAttribute="top" secondItem="3" secondAttribute="top" constant="165" id="Tpv-Ah-8mw"/>
-                            <constraint firstItem="Rkl-0b-6Jz" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="efW-RU-Vyk"/>
-                            <constraint firstItem="Rkl-0b-6Jz" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="lNm-Dg-ofs"/>
+                            <constraint firstItem="ML7-bA-t8j" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="gPT-sm-CyE"/>
+                            <constraint firstItem="ML7-bA-t8j" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="lxo-Ex-Lbu"/>
                         </constraints>
                     </view>
                     <connections>
@@ -41,9 +36,6 @@
             </objects>
         </scene>
     </scenes>
-    <resources>
-        <image name="background-568h@2x.png" width="640" height="1136"/>
-    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
